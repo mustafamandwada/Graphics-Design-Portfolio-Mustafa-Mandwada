@@ -18,10 +18,16 @@ import logo17 from "@assets/logos_for_website_2-37_1768411989753.png";
 import logo18 from "@assets/logos_for_website_2-38_1768411989754.png";
 import logo19 from "@assets/logos_for_website_2-41_1768411989754.png";
 import logo20 from "@assets/logos_for_website_2-44_1768411989754.png";
+import logo21 from "@assets/logos_for_website-19_1768412137851.png";
+import logo22 from "@assets/logos_for_website-08_1768412137851.png";
+import logo23 from "@assets/logos_for_website-09_1768412137852.png";
+import logo24 from "@assets/logos_for_website-12_1768412137852.png";
+import logo25 from "@assets/logos_for_website-13_1768412137852.png";
 
 export const LOGO_ASSETS = [
   logo1, logo2, logo3, logo4, logo5, logo6, logo7, logo8, logo9, logo10,
-  logo11, logo12, logo13, logo14, logo15, logo16, logo17, logo18, logo19, logo20
+  logo11, logo12, logo13, logo14, logo15, logo16, logo17, logo18, logo19, logo20,
+  logo21, logo22, logo23, logo24, logo25
 ];
 
 export const PORTFOLIO_CATEGORIES = [
