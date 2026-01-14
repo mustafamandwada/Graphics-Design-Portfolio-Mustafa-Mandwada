@@ -43,67 +43,47 @@
 
 @layer base {
   :root {
-    /* Light Mode - Minimalist Studio */
-    --background: 0 0% 100%;
-    --foreground: 0 0% 9%;
+    /* Dark Grey & Yellow Theme (Mustafa Mandwada Custom) */
+    --background: 220 10% 10%; /* Dark Grey */
+    --foreground: 0 0% 98%;
 
-    --card: 0 0% 100%;
-    --card-foreground: 0 0% 9%;
+    --card: 220 10% 12%;
+    --card-foreground: 0 0% 98%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 0 0% 9%;
+    --popover: 220 10% 12%;
+    --popover-foreground: 0 0% 98%;
 
-    --primary: 0 0% 9%;
-    --primary-foreground: 0 0% 98%;
+    --primary: 45 100% 50%; /* Yellow */
+    --primary-foreground: 220 10% 10%;
 
-    --secondary: 0 0% 96%;
-    --secondary-foreground: 0 0% 9%;
+    --secondary: 220 10% 15%;
+    --secondary-foreground: 0 0% 98%;
 
-    --muted: 0 0% 96%;
-    --muted-foreground: 0 0% 45%;
+    --muted: 220 10% 20%;
+    --muted-foreground: 0 0% 65%;
 
-    --accent: 0 0% 96%;
-    --accent-foreground: 0 0% 9%;
+    --accent: 45 100% 50%;
+    --accent-foreground: 220 10% 10%;
 
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 98%;
 
-    --border: 0 0% 92%;
-    --input: 0 0% 92%;
-    --ring: 0 0% 9%;
+    --border: 220 10% 18%;
+    --input: 220 10% 18%;
+    --ring: 45 100% 50%;
 
     --radius: 0.5rem;
   }
 
   .dark {
-    /* Dark Mode - Creative Darkroom */
-    --background: 0 0% 3%;
+    /* Same as root for this specific request */
+    --background: 220 10% 10%;
     --foreground: 0 0% 98%;
-
-    --card: 0 0% 3%;
+    --card: 220 10% 12%;
     --card-foreground: 0 0% 98%;
-
-    --popover: 0 0% 3%;
-    --popover-foreground: 0 0% 98%;
-
-    --primary: 0 0% 98%;
-    --primary-foreground: 0 0% 9%;
-
-    --secondary: 0 0% 12%;
-    --secondary-foreground: 0 0% 98%;
-
-    --muted: 0 0% 12%;
-    --muted-foreground: 0 0% 65%;
-
-    --accent: 0 0% 12%;
-    --accent-foreground: 0 0% 98%;
-
-    --destructive: 0 62% 30%;
-    --destructive-foreground: 0 0% 98%;
-
-    --border: 0 0% 12%;
-    --input: 0 0% 12%;
-    --ring: 0 0% 83%;
+    --primary: 45 100% 50%;
+    --primary-foreground: 220 10% 10%;
+    --border: 220 10% 18%;
   }
 
   * {
@@ -111,7 +91,7 @@
   }
   
   body {
-    @apply font-sans antialiased bg-background text-foreground selection:bg-primary/20;
+    @apply font-sans antialiased bg-background text-foreground selection:bg-primary/30;
   }
 
   h1, h2, h3, h4, h5, h6 {

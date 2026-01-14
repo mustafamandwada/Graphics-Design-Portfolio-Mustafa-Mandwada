@@ -11,9 +11,9 @@ export function Contact() {
 
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-4xl mx-auto text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-display font-bold mb-6">Let's Create Something Amazing</h2>
+          <h2 className="text-4xl md:text-5xl font-display font-bold mb-6 text-primary-foreground">Let's Create Something Amazing</h2>
           <p className="text-xl text-primary-foreground/80">
-            Ready to elevate your brand? Reach out to us for a consultation or quote.
+            Ready to elevate your brand? Reach out to me for a consultation or quote.
           </p>
         </div>
 
@@ -58,7 +58,7 @@ export function Contact() {
         </div>
 
         <div className="mt-20 pt-8 border-t border-white/10 text-center text-sm text-white/40">
-          <p>&copy; {new Date().getFullYear()} Creative Vision Portfolio. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Mustafa Mandwada. All rights reserved.</p>
         </div>
       </div>
     </section>

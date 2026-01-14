@@ -29,11 +29,11 @@ export function Hero() {
           <span className="inline-block py-1 px-3 rounded-full bg-primary/5 border border-primary/10 text-primary/80 text-sm font-medium mb-6 tracking-wide uppercase">
             Professional Graphic Design Studio
           </span>
-          <h1 className="text-5xl md:text-7xl lg:text-9xl font-display font-bold tracking-tighter mb-6 bg-clip-text text-transparent bg-gradient-to-br from-foreground to-foreground/50">
+          <h1 className="text-5xl md:text-7xl lg:text-9xl font-display font-bold tracking-tighter mb-6 bg-clip-text text-transparent bg-gradient-to-br from-foreground to-primary">
             Design That <br className="hidden md:block" /> Speaks Volumes
           </h1>
           <p className="text-lg md:text-2xl text-muted-foreground max-w-2xl mx-auto mb-10 leading-relaxed">
-            We craft visual experiences that define brands. From logos to packaging, we turn ideas into iconic designs.
+            I craft visual experiences that define brands. From logos to packaging, I turn ideas into iconic designs.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">

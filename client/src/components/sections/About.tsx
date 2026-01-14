@@ -45,13 +45,13 @@ export function About() {
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: 0.2 }}
           >
-            <span className="text-primary font-semibold tracking-wider uppercase text-sm mb-2 block">Who We Are</span>
-            <h2 className="text-4xl md:text-5xl font-display font-bold mb-6">
-              We Transform Ideas into Visual Masterpieces
+            <span className="text-primary font-semibold tracking-wider uppercase text-sm mb-2 block">Who I Am</span>
+            <h2 className="text-4xl md:text-5xl font-display font-bold mb-6 text-white">
+              I Transform Ideas into Visual Masterpieces
             </h2>
             <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
-              We are a dedicated team of graphic designers passionate about creating unique visual identities. 
-              From the smallest business card to the largest billboard, we approach every project with 
+              I am a dedicated graphic designer passionate about creating unique visual identities. 
+              From the smallest business card to the largest billboard, I approach every project with 
               creativity, precision, and a commitment to excellence.
             </p>
 

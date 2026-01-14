@@ -35,7 +35,7 @@ export function Navbar() {
       <div className="container mx-auto px-4 flex items-center justify-between">
         <Link href="/">
           <a className="text-2xl font-display font-bold tracking-tighter">
-            Creative<span className="text-primary/60">Vision</span>
+            Mustafa<span className="text-primary"> Mandwada</span>
           </a>
         </Link>
 
