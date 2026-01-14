@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { CheckCircle2 } from "lucide-react";
+import profilePic from "@assets/Profile_pic_1768413423892.jpg";
 
 export function About() {
   return (
@@ -15,16 +16,17 @@ export function About() {
             className="relative"
           >
             <div className="aspect-[4/5] bg-muted rounded-2xl overflow-hidden relative shadow-2xl">
-              <div className="absolute inset-0 flex items-center justify-center text-muted-foreground bg-gradient-to-tr from-muted to-muted/50">
-                 {/* This would be the real photo */}
-                 <span className="text-lg font-medium">Profile Photo Placeholder</span>
-              </div>
+              <img 
+                src={profilePic} 
+                alt="Mustafa Mandwada" 
+                className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500"
+              />
               
               {/* Decorative elements */}
               <div className="absolute bottom-6 left-6 right-6 p-6 bg-background/90 backdrop-blur-sm rounded-xl border border-border shadow-lg">
                 <div className="flex items-center gap-4">
                   <div className="h-12 w-12 rounded-full bg-primary flex items-center justify-center text-primary-foreground font-bold text-xl">
-                    10+
+                    11+
                   </div>
                   <div>
                     <p className="font-bold text-foreground">Years of Experience</p>
@@ -50,13 +52,11 @@ export function About() {
               I Transform Ideas into Visual Masterpieces
             </h2>
             <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
-              I am a dedicated graphic designer passionate about creating unique visual identities. 
-              From the smallest business card to the largest billboard, I approach every project with 
-              creativity, precision, and a commitment to excellence.
+              I am a Creative Graphic Designer with over 11 years of experience in Logos, posters, banners, brochures, catalogues, and social media posts, focused on clean, modern & performance-driven design. Skilled in motion graphics, I have developed multiple explainer videos and motion graphs for different businesses. I have a strong visualization in creating ideas and creating visually compelling work that supports business growth.
             </p>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8">
-              {["Brand Identity", "Print Design", "Digital Marketing", "Packaging Solutions"].map((item) => (
+              {["Brand Identity", "Print Design", "Motion Graphics", "Explainer Videos"].map((item) => (
                 <div key={item} className="flex items-center gap-2">
                   <CheckCircle2 className="w-5 h-5 text-primary" />
                   <span className="font-medium">{item}</span>
