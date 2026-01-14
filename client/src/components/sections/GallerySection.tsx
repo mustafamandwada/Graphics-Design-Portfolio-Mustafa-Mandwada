@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { Image as ImageIcon } from "lucide-react";
 import { cn } from "@/lib/utils";
+import { LOGO_ASSETS } from "@/lib/constants";
 
 interface GallerySectionProps {
   id: string;
@@ -11,7 +12,7 @@ interface GallerySectionProps {
 }
 
 export function GallerySection({ id, title, description, count, isAlternate = false }: GallerySectionProps) {
-  // Create an array of length 'count'
+  const isLogoSection = id === 'logos';
   const items = Array.from({ length: count }, (_, i) => i + 1);
 
   return (
@@ -30,24 +31,35 @@ export function GallerySection({ id, title, description, count, isAlternate = fa
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-          {items.map((item, index) => (
-            <motion.div
-              key={index}
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true, margin: "-50px" }}
-              transition={{ duration: 0.5, delay: index * 0.05 }}
-              className="group aspect-square relative bg-secondary rounded-xl overflow-hidden border border-border hover:border-primary/20 transition-colors"
-            >
-              <div className="absolute inset-0 flex flex-col items-center justify-center text-muted-foreground/40 group-hover:text-primary/60 transition-colors">
-                <ImageIcon className="w-8 h-8 mb-2 opacity-50" />
-                <span className="text-sm font-medium">Design {item}</span>
-              </div>
-              
-              {/* Hover Overlay */}
-              <div className="absolute inset-0 bg-primary/0 group-hover:bg-primary/5 transition-colors duration-300" />
-            </motion.div>
-          ))}
+          {items.map((item, index) => {
+            const logoImage = isLogoSection && LOGO_ASSETS[index] ? LOGO_ASSETS[index] : null;
+            
+            return (
+              <motion.div
+                key={index}
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true, margin: "-50px" }}
+                transition={{ duration: 0.5, delay: index * 0.05 }}
+                className="group aspect-square relative bg-secondary rounded-xl overflow-hidden border border-border hover:border-primary/20 transition-all duration-300 shadow-sm hover:shadow-xl"
+              >
+                {logoImage ? (
+                  <img 
+                    src={logoImage} 
+                    alt={`${title} design ${item}`}
+                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                  />
+                ) : (
+                  <div className="absolute inset-0 flex flex-col items-center justify-center text-muted-foreground/40 group-hover:text-primary/60 transition-colors">
+                    <ImageIcon className="w-8 h-8 mb-2 opacity-50" />
+                    <span className="text-sm font-medium">Design {item}</span>
+                  </div>
+                )}
+                
+                <div className="absolute inset-0 bg-primary/0 group-hover:bg-primary/5 transition-colors duration-300" />
+              </motion.div>
+            );
+          })}
         </div>
       </div>
     </section>
