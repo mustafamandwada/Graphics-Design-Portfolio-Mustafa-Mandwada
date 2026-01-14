@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { Image as ImageIcon } from "lucide-react";
 import { cn } from "@/lib/utils";
-import { LOGO_ASSETS } from "@/lib/constants";
+import { LOGO_ASSETS, POSTER_ASSETS } from "@/lib/constants";
 
 interface GallerySectionProps {
   id: string;
@@ -13,6 +13,7 @@ interface GallerySectionProps {
 
 export function GallerySection({ id, title, description, count, isAlternate = false }: GallerySectionProps) {
   const isLogoSection = id === 'logos';
+  const isPosterSection = id === 'posters';
   const items = Array.from({ length: count }, (_, i) => i + 1);
 
   return (
@@ -32,7 +33,12 @@ export function GallerySection({ id, title, description, count, isAlternate = fa
 
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
           {items.map((item, index) => {
-            const logoImage = isLogoSection && LOGO_ASSETS[index] ? LOGO_ASSETS[index] : null;
+            let assetImage = null;
+            if (isLogoSection) {
+              assetImage = LOGO_ASSETS[index] || null;
+            } else if (isPosterSection) {
+              assetImage = POSTER_ASSETS[index] || null;
+            }
             
             return (
               <motion.div
@@ -43,9 +49,9 @@ export function GallerySection({ id, title, description, count, isAlternate = fa
                 transition={{ duration: 0.5, delay: index * 0.05 }}
                 className="group aspect-square relative bg-secondary rounded-xl overflow-hidden border border-border hover:border-primary/20 transition-all duration-300 shadow-sm hover:shadow-xl"
               >
-                {logoImage ? (
+                {assetImage ? (
                   <img 
-                    src={logoImage} 
+                    src={assetImage} 
                     alt={`${title} design ${item}`}
                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                   />

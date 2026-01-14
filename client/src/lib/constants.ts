@@ -24,15 +24,32 @@ import logo23 from "@assets/logos_for_website-09_1768412137852.png";
 import logo24 from "@assets/logos_for_website-12_1768412137852.png";
 import logo25 from "@assets/logos_for_website-13_1768412137852.png";
 
+// Poster Assets
+import poster1 from "@assets/Poster_4x3-01_1768412740732.jpg";
+import poster2 from "@assets/Old_Soni_Jewelers_poster-01_1768412766614.png";
+import poster3 from "@assets/Capsield_Webinar-02_1768412789867.jpg";
+import poster4 from "@assets/1-01_1768412803368.jpg";
+import poster5 from "@assets/Party_hub-01_1768412813666.jpg";
+import poster6 from "@assets/d15d5d47-e6dc-48d0-828d-c5cc05ae43c9_1768412818201.jpg";
+import poster7 from "@assets/8-01_1768412858019.jpg";
+import poster8 from "@assets/11-01_1768412858019.jpg";
+import poster9 from "@assets/6-01_1768412858020.jpg";
+import poster10 from "@assets/Flyer_2-01_1768412879195.jpg";
+import poster11 from "@assets/Poster_2-01_1768412901793.png";
+
 export const LOGO_ASSETS = [
   logo1, logo2, logo3, logo4, logo5, logo6, logo7, logo8, logo9, logo10,
   logo11, logo12, logo13, logo14, logo15, logo16, logo17, logo18, logo19, logo20,
   logo21, logo22, logo23, logo24, logo25
 ];
 
+export const POSTER_ASSETS = [
+  poster1, poster2, poster3, poster4, poster5, poster6, poster7, poster8, poster9, poster10, poster11
+];
+
 export const PORTFOLIO_CATEGORIES = [
   { id: 'logos', title: 'Logos', count: 25, description: "Brand Identity & Marks" },
-  { id: 'posters', title: 'Posters', count: 12, description: "Event & Promotional Art" },
+  { id: 'posters', title: 'Posters', count: 11, description: "Event & Promotional Art" },
   { id: 'banners', title: 'Banners', count: 12, description: "Large Format Display" },
   { id: 'menu-cards', title: 'Menu Cards', count: 12, description: "Restaurant & Cafe Design" },
   { id: 'invitation-cards', title: 'Invitation Cards', count: 12, description: "Wedding & Event Suites" },
