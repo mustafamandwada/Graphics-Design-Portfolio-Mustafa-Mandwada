@@ -27,7 +27,7 @@ export function Hero() {
           transition={{ duration: 0.8, ease: "easeOut" }}
         >
           <span className="inline-block py-1 px-3 rounded-full bg-primary/5 border border-primary/10 text-primary/80 text-sm font-medium mb-6 tracking-wide uppercase">
-            Professional Graphic Design Studio
+            Professional Graphic Designer
           </span>
           <h1 className="text-5xl md:text-7xl lg:text-9xl font-display font-bold tracking-tighter mb-6 bg-clip-text text-transparent bg-gradient-to-br from-foreground to-primary">
             Design That <br className="hidden md:block" /> Speaks Volumes
