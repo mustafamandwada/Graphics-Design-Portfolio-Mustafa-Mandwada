@@ -94,6 +94,6 @@ export const PORTFOLIO_CATEGORIES = [
 
 export const CONTACT_INFO = {
   whatsapp: "+91 7415565203",
-  email: "hello@creativevision.com",
-  instagram: "@creativevision"
+  email: "mustafamandwada@gmail.com",
+  instagram: "@Adbhutartz"
 };
