@@ -34,8 +34,6 @@ import poster8 from "@assets/11-01_1768412858019.jpg";
 import poster9 from "@assets/6-01_1768412858020.jpg";
 import poster10 from "@assets/Flyer_2-01_1768412879195.jpg";
 import poster11 from "@assets/Poster_2-01_1768412901793.png";
-
-// New Poster Assets
 import poster12 from "@assets/22-01_1768413103865.jpg";
 import poster13 from "@assets/4-01_1768413103865.jpg";
 import poster14 from "@assets/9-01_1768413103865.jpg";
@@ -43,6 +41,19 @@ import poster15 from "@assets/11-01_1768413103866.jpg";
 import poster16 from "@assets/13-01_1768413103866.jpg";
 import poster17 from "@assets/15-01_1768413103867.jpg";
 import poster18 from "@assets/AR_Mehndi_Poster-01_1768413114590.jpg";
+
+// Social Media Assets
+import sm1 from "@assets/Signature_edition_1-01_1768413582701.jpg";
+import sm2 from "@assets/4-03_1768413623491.png";
+import sm3 from "@assets/5-01_1768413623491.png";
+import sm4 from "@assets/2-01_1768413623492.png";
+import sm5 from "@assets/18-01_1768413688696.png";
+import sm6 from "@assets/28-01_1768413688697.png";
+import sm7 from "@assets/5-01_1768413688697.png";
+import sm8 from "@assets/2-01_1768413724095.png";
+import sm9 from "@assets/9-01_1768413724095.png";
+import sm10 from "@assets/17-01_1768413724095.png";
+import sm11 from "@assets/19-01_1768413724096.png";
 
 export const LOGO_ASSETS = [
   logo1, logo2, logo3, logo4, logo5, logo6, logo7, logo8, logo9, logo10,
@@ -55,6 +66,10 @@ export const POSTER_ASSETS = [
   poster12, poster13, poster14, poster15, poster16, poster17, poster18
 ];
 
+export const SOCIAL_ASSETS = [
+  sm1, sm2, sm3, sm4, sm5, sm6, sm7, sm8, sm9, sm10, sm11
+];
+
 export const PORTFOLIO_CATEGORIES = [
   { id: 'logos', title: 'Logos', count: 25, description: "Brand Identity & Marks" },
   { id: 'posters', title: 'Posters', count: 16, description: "Event & Promotional Art" },
@@ -62,7 +77,7 @@ export const PORTFOLIO_CATEGORIES = [
   { id: 'menu-cards', title: 'Menu Cards', count: 12, description: "Restaurant & Cafe Design" },
   { id: 'invitation-cards', title: 'Invitation Cards', count: 12, description: "Wedding & Event Suites" },
   { id: 'standee', title: 'Standee Design', count: 12, description: "Exhibition Displays" },
-  { id: 'social-media', title: 'Social Media Posts', count: 12, description: "Digital Content Creation" },
+  { id: 'social-media', title: 'Social Media Posts', count: 11, description: "Digital Content Creation" },
   { id: 'brochures', title: 'Brochures', count: 12, description: "Corporate Literature" },
   { id: 'packaging', title: 'Product Packaging', count: 12, description: "Retail Design" },
 ];
