@@ -44,12 +44,12 @@ export const LOGO_ASSETS = [
 ];
 
 export const POSTER_ASSETS = [
-  poster1, poster2, poster3, poster4, poster5, poster6, poster7, poster8, poster9, poster10, poster11
+  poster1, poster2, poster3, poster4, poster5, poster7, poster8, poster9, poster10, poster11
 ];
 
 export const PORTFOLIO_CATEGORIES = [
   { id: 'logos', title: 'Logos', count: 25, description: "Brand Identity & Marks" },
-  { id: 'posters', title: 'Posters', count: 11, description: "Event & Promotional Art" },
+  { id: 'posters', title: 'Posters', count: 10, description: "Event & Promotional Art" },
   { id: 'banners', title: 'Banners', count: 12, description: "Large Format Display" },
   { id: 'menu-cards', title: 'Menu Cards', count: 12, description: "Restaurant & Cafe Design" },
   { id: 'invitation-cards', title: 'Invitation Cards', count: 12, description: "Wedding & Event Suites" },
