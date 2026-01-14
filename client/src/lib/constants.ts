@@ -54,6 +54,16 @@ import sm8 from "@assets/2-01_1768413724095.png";
 import sm9 from "@assets/9-01_1768413724095.png";
 import sm10 from "@assets/17-01_1768413724095.png";
 import sm11 from "@assets/19-01_1768413724096.png";
+import sm12 from "@assets/Kushalgarh_V2-01_1768413776943.png";
+import sm13 from "@assets/1-01_1768413800780.png";
+import sm14 from "@assets/4-01_1768413800781.png";
+import sm15 from "@assets/8-01_1768413800781.png";
+import sm16 from "@assets/1-01_1768413825073.png";
+import sm17 from "@assets/1-01_1768413845508.png";
+import sm18 from "@assets/Rakhi_2023-01_1768413888752.png";
+import sm19 from "@assets/Christmas_offer-01_1768413888753.png";
+import sm20 from "@assets/19-01_1768413950500.jpg";
+import sm21 from "@assets/21-01_1768413950500.jpg";
 
 export const LOGO_ASSETS = [
   logo1, logo2, logo3, logo4, logo5, logo6, logo7, logo8, logo9, logo10,
@@ -67,7 +77,7 @@ export const POSTER_ASSETS = [
 ];
 
 export const SOCIAL_ASSETS = [
-  sm1, sm2, sm3, sm4, sm5, sm6, sm7, sm8, sm9, sm10, sm11
+  sm1, sm2, sm3, sm4, sm5, sm6, sm7, sm8, sm9, sm10, sm11, sm12, sm13, sm14, sm15, sm16, sm17, sm18, sm19, sm20, sm21
 ];
 
 export const PORTFOLIO_CATEGORIES = [
@@ -77,7 +87,7 @@ export const PORTFOLIO_CATEGORIES = [
   { id: 'menu-cards', title: 'Menu Cards', count: 12, description: "Restaurant & Cafe Design" },
   { id: 'invitation-cards', title: 'Invitation Cards', count: 12, description: "Wedding & Event Suites" },
   { id: 'standee', title: 'Standee Design', count: 12, description: "Exhibition Displays" },
-  { id: 'social-media', title: 'Social Media Posts', count: 11, description: "Digital Content Creation" },
+  { id: 'social-media', title: 'Social Media Posts', count: 21, description: "Digital Content Creation" },
   { id: 'brochures', title: 'Brochures', count: 12, description: "Corporate Literature" },
   { id: 'packaging', title: 'Product Packaging', count: 12, description: "Retail Design" },
 ];
