@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { Image as ImageIcon } from "lucide-react";
 import { cn } from "@/lib/utils";
-import { LOGO_ASSETS, POSTER_ASSETS, SOCIAL_ASSETS, MENU_ASSETS } from "@/lib/constants";
+import { LOGO_ASSETS, POSTER_ASSETS, SOCIAL_ASSETS, MENU_ASSETS, BROCHURE_ASSETS } from "@/lib/constants";
 
 interface GallerySectionProps {
   id: string;
@@ -16,6 +16,7 @@ export function GallerySection({ id, title, description, count, isAlternate = fa
   const isPosterSection = id === 'posters';
   const isSocialSection = id === 'social-media';
   const isMenuSection = id === 'menu-cards';
+  const isBrochureSection = id === 'brochures';
   const items = Array.from({ length: count }, (_, i) => i + 1);
 
   return (
@@ -44,6 +45,8 @@ export function GallerySection({ id, title, description, count, isAlternate = fa
               assetImage = SOCIAL_ASSETS[index] || null;
             } else if (isMenuSection) {
               assetImage = MENU_ASSETS[index] || null;
+            } else if (isBrochureSection) {
+              assetImage = BROCHURE_ASSETS[index] || null;
             }
             
             return (

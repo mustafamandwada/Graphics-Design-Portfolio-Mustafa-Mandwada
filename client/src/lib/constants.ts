@@ -81,6 +81,15 @@ import menu12 from "@assets/b6919f16-2617-41db-ac04-da42ca3768e5_1768439891075.j
 import menu13 from "@assets/Menu_Back_French-01_1768439920994.png";
 import menu14 from "@assets/09_1768439950841.jpg";
 
+// Brochure Assets
+import brochure1 from "@assets/7b77eb76-96c2-42d8-b57a-3244ec972351_1768440152694.jpg";
+import brochure2 from "@assets/af_559_1768440213286.jpg";
+import brochure3 from "@assets/cb36ddd1-0998-482d-a48f-a9137776889c_1768440225553.jpg";
+import brochure4 from "@assets/Brochure-07_1768440238213.png";
+import brochure5 from "@assets/11e73ff2-07a6-4dc8-9b63-af8b658a3c4d_1768440286228.jpg";
+import brochure6 from "@assets/09_1768440433023.jpg";
+import brochure7 from "@assets/PF8XX41_1768440447852.jpg";
+
 export const LOGO_ASSETS = [
   logo1, logo2, logo3, logo4, logo5, logo6, logo7, logo8, logo9, logo10,
   logo11, logo12, logo13, logo14, logo15, logo16, logo17, logo18, logo19, logo20,
@@ -100,6 +109,10 @@ export const MENU_ASSETS = [
   menu1, menu2, menu3, menu4, menu5, menu6, menu7, menu8, menu9, menu10, menu11, menu12, menu13, menu14
 ];
 
+export const BROCHURE_ASSETS = [
+  brochure1, brochure2, brochure3, brochure4, brochure5, brochure6, brochure7
+];
+
 export const PORTFOLIO_CATEGORIES = [
   { id: 'logos', title: 'Logos', count: 25, description: "Brand Identity & Marks" },
   { id: 'posters', title: 'Posters', count: 16, description: "Event & Promotional Art" },
@@ -108,7 +121,7 @@ export const PORTFOLIO_CATEGORIES = [
   { id: 'invitation-cards', title: 'Invitation Cards', count: 12, description: "Wedding & Event Suites" },
   { id: 'standee', title: 'Standee Design', count: 12, description: "Exhibition Displays" },
   { id: 'social-media', title: 'Social Media Posts', count: 21, description: "Digital Content Creation" },
-  { id: 'brochures', title: 'Brochures', count: 12, description: "Corporate Literature" },
+  { id: 'brochures', title: 'Brochures', count: 7, description: "Corporate Literature" },
   { id: 'packaging', title: 'Product Packaging', count: 12, description: "Retail Design" },
 ];
 
