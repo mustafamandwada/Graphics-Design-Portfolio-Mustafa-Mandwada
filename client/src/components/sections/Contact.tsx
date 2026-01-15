@@ -55,7 +55,7 @@ export function Contact() {
               <Linkedin className="w-6 h-6" />
             </div>
             <h3 className="text-lg font-bold mb-1">LinkedIn</h3>
-            <p className="text-sm text-white/70">Connect with me</p>
+            <p className="text-sm text-white/70">Let's connect</p>
           </motion.a>
 
           <motion.a 

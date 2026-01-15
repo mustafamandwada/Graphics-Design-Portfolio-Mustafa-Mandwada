@@ -33,7 +33,7 @@ export function Hero() {
             Design That <br className="hidden md:block" /> Speaks Volumes
           </h1>
           <p className="text-lg md:text-2xl text-muted-foreground max-w-2xl mx-auto mb-10 leading-relaxed">
-            I craft visual experiences that define brands. From logos to packaging, I turn ideas into iconic designs.
+            I craft visual experiences that define brands. From logos to packaging, I turn ideas into impactful designs.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">

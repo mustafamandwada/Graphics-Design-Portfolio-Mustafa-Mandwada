@@ -52,7 +52,7 @@ export function About() {
               About Me
             </h2>
             <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
-              I am a Creative Graphic Designer with over 11 years of experience in Logos, posters, banners, brochures, catalogues, and social media posts, focused on clean, modern & performance-driven design. Skilled in motion graphics, I have developed multiple explainer videos and motion graphs for different businesses. I have a strong visualization in creating ideas and creating visually compelling work that supports business growth.
+              I am a Creative Graphic Designer with over 11 years of experience in designing logos, posters, banners, brochures, catalogues, and social media posts. I focus on clean, modern, and performance-driven design. Skilled in motion graphics, I have developed multiple explainer videos and motion graphics for various businesses. I have a strong ability to visualize creative ideas and produce visually compelling work that supports business growth.
             </p>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8">
