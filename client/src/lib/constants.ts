@@ -65,6 +65,22 @@ import sm19 from "@assets/Christmas_offer-01_1768413888753.png";
 import sm20 from "@assets/19-01_1768413950500.jpg";
 import sm21 from "@assets/21-01_1768413950500.jpg";
 
+// Menu Card Assets
+import menu1 from "@assets/443_1768439619593.jpg";
+import menu2 from "@assets/Menu_Combined_updated-01_1768439708332.png";
+import menu3 from "@assets/Menu_Combined_updated-02_1768439708332.png";
+import menu4 from "@assets/Menu_Combined_updated-03_1768439708332.png";
+import menu5 from "@assets/Menu_Combined_updated-04_1768439708333.png";
+import menu6 from "@assets/Menu_Final-01_1768439747643.jpg";
+import menu7 from "@assets/443_1768439759057.jpg";
+import menu8 from "@assets/db70e025-b6f3-4bd5-ad36-8f7c058c62a6_1768439795616.jpg";
+import menu9 from "@assets/78_1768439832115.jpg";
+import menu10 from "@assets/7010900_1768439837616.jpg";
+import menu11 from "@assets/flyer_mockup_07_1768439857630.jpg";
+import menu12 from "@assets/b6919f16-2617-41db-ac04-da42ca3768e5_1768439891075.jpg";
+import menu13 from "@assets/Menu_Back_French-01_1768439920994.png";
+import menu14 from "@assets/09_1768439950841.jpg";
+
 export const LOGO_ASSETS = [
   logo1, logo2, logo3, logo4, logo5, logo6, logo7, logo8, logo9, logo10,
   logo11, logo12, logo13, logo14, logo15, logo16, logo17, logo18, logo19, logo20,
@@ -80,11 +96,15 @@ export const SOCIAL_ASSETS = [
   sm1, sm2, sm3, sm4, sm5, sm6, sm7, sm8, sm9, sm10, sm11, sm12, sm13, sm14, sm15, sm16, sm17, sm18, sm19, sm20, sm21
 ];
 
+export const MENU_ASSETS = [
+  menu1, menu2, menu3, menu4, menu5, menu6, menu7, menu8, menu9, menu10, menu11, menu12, menu13, menu14
+];
+
 export const PORTFOLIO_CATEGORIES = [
   { id: 'logos', title: 'Logos', count: 25, description: "Brand Identity & Marks" },
   { id: 'posters', title: 'Posters', count: 16, description: "Event & Promotional Art" },
   { id: 'banners', title: 'Banners', count: 12, description: "Large Format Display" },
-  { id: 'menu-cards', title: 'Menu Cards', count: 12, description: "Restaurant & Cafe Design" },
+  { id: 'menu-cards', title: 'Menu Cards', count: 14, description: "Restaurant & Cafe Design" },
   { id: 'invitation-cards', title: 'Invitation Cards', count: 12, description: "Wedding & Event Suites" },
   { id: 'standee', title: 'Standee Design', count: 12, description: "Exhibition Displays" },
   { id: 'social-media', title: 'Social Media Posts', count: 21, description: "Digital Content Creation" },
