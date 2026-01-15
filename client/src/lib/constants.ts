@@ -80,6 +80,8 @@ import menu11 from "@assets/flyer_mockup_07_1768439857630.jpg";
 import menu12 from "@assets/b6919f16-2617-41db-ac04-da42ca3768e5_1768439891075.jpg";
 import menu13 from "@assets/Menu_Back_French-01_1768439920994.png";
 import menu14 from "@assets/09_1768439950841.jpg";
+import menu15 from "@assets/446_1768444822502.jpg";
+import menu16 from "@assets/443_1768444822503.jpg";
 
 // Brochure Assets
 import brochure1 from "@assets/7b77eb76-96c2-42d8-b57a-3244ec972351_1768440152694.jpg";
@@ -145,7 +147,7 @@ export const SOCIAL_ASSETS = [
 ];
 
 export const MENU_ASSETS = [
-  menu1, menu2, menu3, menu4, menu5, menu6, menu7, menu8, menu9, menu10, menu11, menu12, menu13, menu14
+  menu1, menu2, menu3, menu4, menu5, menu6, menu7, menu8, menu9, menu10, menu11, menu12, menu13, menu14, menu15, menu16
 ];
 
 export const BROCHURE_ASSETS = [
@@ -164,7 +166,7 @@ export const PORTFOLIO_CATEGORIES = [
   { id: 'logos', title: 'Logos', count: 25, description: "Brand Identity & Marks" },
   { id: 'posters', title: 'Posters', count: 16, description: "Event & Promotional Art" },
   { id: 'banners', title: 'Banners', count: 12, description: "Large Format Display" },
-  { id: 'menu-cards', title: 'Menu Cards', count: 14, description: "Restaurant & Cafe Design" },
+  { id: 'menu-cards', title: 'Menu Cards', count: 16, description: "Restaurant & Cafe Design" },
   { id: 'invitation-cards', title: 'Invitation Cards', count: 12, description: "Wedding & Event Suites" },
   { id: 'standee', title: 'Standee Design', count: 6, description: "Exhibition Displays" },
   { id: 'social-media', title: 'Social Media Posts', count: 21, description: "Digital Content Creation" },
