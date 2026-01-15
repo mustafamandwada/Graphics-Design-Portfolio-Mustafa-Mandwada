@@ -145,7 +145,7 @@ export const BROCHURE_ASSETS = [
 ];
 
 export const PACKAGING_ASSETS = [
-  pkg1, pkg2, pkg3, pkg4, pkg5, pkg6, pkg7, pkg8, pkg9, pkg10, pkg11, pkg12, pkg13, pkg14, pkg15, pkg16, pkg17, pkg18, pkg19, pkg20, pkg21, pkg22, pkg23, pkg24, pkg25, pkg26, pkg27, pkg28, pkg29
+  pkg1, pkg2, pkg3, pkg4, pkg5, pkg6, pkg7, pkg8, pkg9, pkg10, pkg11, pkg12, pkg13, pkg14, pkg15, pkg16, pkg18, pkg19, pkg20, pkg21, pkg22, pkg23, pkg24, pkg25, pkg26, pkg27, pkg28, pkg29
 ];
 
 export const PORTFOLIO_CATEGORIES = [
@@ -157,7 +157,7 @@ export const PORTFOLIO_CATEGORIES = [
   { id: 'standee', title: 'Standee Design', count: 12, description: "Exhibition Displays" },
   { id: 'social-media', title: 'Social Media Posts', count: 21, description: "Digital Content Creation" },
   { id: 'brochures', title: 'Brochures', count: 7, description: "Corporate Literature" },
-  { id: 'packaging', title: 'Product Packaging', count: 29, description: "Retail Design" },
+  { id: 'packaging', title: 'Product Packaging', count: 28, description: "Retail Design" },
 ];
 
 export const CONTACT_INFO = {

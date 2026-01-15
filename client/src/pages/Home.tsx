@@ -1,6 +1,8 @@
 import { Navbar } from "@/components/layout/Navbar";
 import { Hero } from "@/components/sections/Hero";
 import { About } from "@/components/sections/About";
+import { ImpactSection } from "@/components/sections/ImpactSection";
+import { SkillsSlider } from "@/components/sections/SkillsSlider";
 import { GallerySection } from "@/components/sections/GallerySection";
 import { Contact } from "@/components/sections/Contact";
 import { PORTFOLIO_CATEGORIES } from "@/lib/constants";
@@ -11,6 +13,8 @@ export default function Home() {
       <Navbar />
       <Hero />
       <About />
+      <ImpactSection />
+      <SkillsSlider />
       
       <div id="portfolio">
         {PORTFOLIO_CATEGORIES.map((category, index) => (
