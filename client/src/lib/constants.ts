@@ -41,6 +41,9 @@ import poster15 from "@assets/11-01_1768413103866.jpg";
 import poster16 from "@assets/13-01_1768413103866.jpg";
 import poster17 from "@assets/15-01_1768413103867.jpg";
 import poster18 from "@assets/AR_Mehndi_Poster-01_1768413114590.jpg";
+import poster19 from "@assets/Flyer_Artboard_01_1768445416128.png";
+import poster20 from "@assets/Flyer_2_Artboard_01_1768445416128.png";
+import poster21 from "@assets/Flyer_3_Without_logo-01_1768445416129.jpg";
 
 // Social Media Assets
 import sm1 from "@assets/Signature_edition_1-01_1768413582701.jpg";
@@ -142,7 +145,7 @@ export const LOGO_ASSETS = [
 
 export const POSTER_ASSETS = [
   poster1, poster2, poster3, poster5, poster7, poster8, poster9, poster10, poster11,
-  poster12, poster13, poster14, poster15, poster16, poster17, poster18
+  poster12, poster13, poster14, poster15, poster16, poster17, poster18, poster19, poster20, poster21
 ];
 
 export const SOCIAL_ASSETS = [
@@ -167,7 +170,7 @@ export const STANDEE_ASSETS = [
 
 export const PORTFOLIO_CATEGORIES = [
   { id: 'logos', title: 'Logos', count: 25, description: "Brand Identity & Marks" },
-  { id: 'posters', title: 'Posters', count: 16, description: "Event & Promotional Art" },
+  { id: 'posters', title: 'Posters', count: 19, description: "Event & Promotional Art" },
   { id: 'banners', title: 'Banners', count: 12, description: "Large Format Display" },
   { id: 'menu-cards', title: 'Menu Cards', count: 16, description: "Restaurant & Cafe Design" },
   { id: 'standee', title: 'Standee Design', count: 9, description: "Exhibition Displays" },
