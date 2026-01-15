@@ -110,6 +110,16 @@ import pkg16 from "@assets/7eaad5e5-05ca-4611-aa09-e1226da094ee8_1768441489597.j
 import pkg17 from "@assets/5413844_1768441489597.jpg";
 import pkg18 from "@assets/5413845_1768441489597.jpg";
 import pkg19 from "@assets/10958193_1768441489598.jpg";
+import pkg20 from "@assets/M010T122_Jan_0622_Cosmatic_Glass_Bottle_2_1768441624457.jpg";
+import pkg21 from "@assets/M010T122_Jan_0622_Cosmatic_Glass_Bottle_3_1768441624457.jpg";
+import pkg22 from "@assets/M010T122_Jan_0622_Cosmatic_Glass_Bottle_4_1768441624457.jpg";
+import pkg23 from "@assets/6cb5d8e7-b783-4c53-bc0a-4cf90b8634092_1768441700106.jpg";
+import pkg24 from "@assets/6cb5d8e7-b783-4c53-bc0a-4cf90b863409_1768441700106.jpg";
+import pkg25 from "@assets/ece63dda-01c2-409f-89ae-fdd56e25a3b3_1768441783869.jpg";
+import pkg26 from "@assets/111_1768441803931.jpg";
+import pkg27 from "@assets/9272018_1768441814172.jpg";
+import pkg28 from "@assets/9272018F_1768441814172.jpg";
+import pkg29 from "@assets/8fb9b488-229e-45ad-ab2d-ab75c91f1f35_1768441897440.jpg";
 
 export const LOGO_ASSETS = [
   logo1, logo2, logo3, logo4, logo5, logo6, logo7, logo8, logo9, logo10,
@@ -135,7 +145,7 @@ export const BROCHURE_ASSETS = [
 ];
 
 export const PACKAGING_ASSETS = [
-  pkg1, pkg2, pkg3, pkg4, pkg5, pkg6, pkg7, pkg8, pkg9, pkg10, pkg11, pkg12, pkg13, pkg14, pkg15, pkg16, pkg17, pkg18, pkg19
+  pkg1, pkg2, pkg3, pkg4, pkg5, pkg6, pkg7, pkg8, pkg9, pkg10, pkg11, pkg12, pkg13, pkg14, pkg15, pkg16, pkg17, pkg18, pkg19, pkg20, pkg21, pkg22, pkg23, pkg24, pkg25, pkg26, pkg27, pkg28, pkg29
 ];
 
 export const PORTFOLIO_CATEGORIES = [
@@ -147,7 +157,7 @@ export const PORTFOLIO_CATEGORIES = [
   { id: 'standee', title: 'Standee Design', count: 12, description: "Exhibition Displays" },
   { id: 'social-media', title: 'Social Media Posts', count: 21, description: "Digital Content Creation" },
   { id: 'brochures', title: 'Brochures', count: 7, description: "Corporate Literature" },
-  { id: 'packaging', title: 'Product Packaging', count: 19, description: "Retail Design" },
+  { id: 'packaging', title: 'Product Packaging', count: 29, description: "Retail Design" },
 ];
 
 export const CONTACT_INFO = {
