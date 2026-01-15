@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Phone, Mail, Instagram, MapPin } from "lucide-react";
+import { Phone, Mail, Instagram, MapPin, Linkedin } from "lucide-react";
 import { CONTACT_INFO } from "@/lib/constants";
 
 export function Contact() {
@@ -17,43 +17,57 @@ export function Contact() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto">
           <motion.a 
             href={`https://wa.me/${CONTACT_INFO.whatsapp.replace(/[^0-9]/g, '')}`}
             target="_blank"
             rel="noopener noreferrer"
             whileHover={{ y: -5 }}
-            className="flex flex-col items-center p-8 bg-white/10 backdrop-blur-sm rounded-2xl border border-white/10 hover:bg-white/15 transition-colors"
+            className="flex flex-col items-center p-6 bg-white/10 backdrop-blur-sm rounded-2xl border border-white/10 hover:bg-white/15 transition-colors"
           >
             <div className="w-12 h-12 bg-white/20 rounded-full flex items-center justify-center mb-4 text-white">
               <Phone className="w-6 h-6" />
             </div>
-            <h3 className="text-xl font-bold mb-2">WhatsApp</h3>
-            <p className="text-white/70">{CONTACT_INFO.whatsapp}</p>
+            <h3 className="text-lg font-bold mb-1">WhatsApp</h3>
+            <p className="text-sm text-white/70">{CONTACT_INFO.whatsapp}</p>
           </motion.a>
 
           <motion.a 
              href={`mailto:${CONTACT_INFO.email}`}
              whileHover={{ y: -5 }}
-             className="flex flex-col items-center p-8 bg-white/10 backdrop-blur-sm rounded-2xl border border-white/10 hover:bg-white/15 transition-colors"
+             className="flex flex-col items-center p-6 bg-white/10 backdrop-blur-sm rounded-2xl border border-white/10 hover:bg-white/15 transition-colors"
           >
             <div className="w-12 h-12 bg-white/20 rounded-full flex items-center justify-center mb-4 text-white">
               <Mail className="w-6 h-6" />
             </div>
-            <h3 className="text-xl font-bold mb-2">Email</h3>
-            <p className="text-white/70">{CONTACT_INFO.email}</p>
+            <h3 className="text-lg font-bold mb-1">Email</h3>
+            <p className="text-sm text-white/70 truncate w-full text-center">{CONTACT_INFO.email}</p>
+          </motion.a>
+
+          <motion.a 
+             href={CONTACT_INFO.linkedin}
+             target="_blank"
+             rel="noopener noreferrer"
+             whileHover={{ y: -5 }}
+             className="flex flex-col items-center p-6 bg-white/10 backdrop-blur-sm rounded-2xl border border-white/10 hover:bg-white/15 transition-colors"
+          >
+            <div className="w-12 h-12 bg-white/20 rounded-full flex items-center justify-center mb-4 text-white">
+              <Linkedin className="w-6 h-6" />
+            </div>
+            <h3 className="text-lg font-bold mb-1">LinkedIn</h3>
+            <p className="text-sm text-white/70">Connect with me</p>
           </motion.a>
 
           <motion.a 
              href="#"
              whileHover={{ y: -5 }}
-             className="flex flex-col items-center p-8 bg-white/10 backdrop-blur-sm rounded-2xl border border-white/10 hover:bg-white/15 transition-colors"
+             className="flex flex-col items-center p-6 bg-white/10 backdrop-blur-sm rounded-2xl border border-white/10 hover:bg-white/15 transition-colors"
           >
             <div className="w-12 h-12 bg-white/20 rounded-full flex items-center justify-center mb-4 text-white">
               <Instagram className="w-6 h-6" />
             </div>
-            <h3 className="text-xl font-bold mb-2">Social Media</h3>
-            <p className="text-white/70">{CONTACT_INFO.instagram}</p>
+            <h3 className="text-lg font-bold mb-1">Instagram</h3>
+            <p className="text-sm text-white/70">{CONTACT_INFO.instagram}</p>
           </motion.a>
         </div>
 

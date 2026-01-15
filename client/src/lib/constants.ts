@@ -130,6 +130,9 @@ import standee3 from "@assets/Standee_1_mockup_1768444456222.jpg";
 import standee4 from "@assets/71ad0e30-e3d2-4f3d-b2d1-5d9bf6e03179_1768444670509.jpg";
 import standee5 from "@assets/364_1768444670509.jpg";
 import standee6 from "@assets/Food-Menu-Tent-Card-Design-_Mockup_1768444670510.png";
+import standee7 from "@assets/Standee_Final_2-01_1768444929654.jpg";
+import standee8 from "@assets/Standee-01_1768444929655.png";
+import standee9 from "@assets/Standee-01_(1)_1768444929656.png";
 
 export const LOGO_ASSETS = [
   logo1, logo2, logo3, logo4, logo5, logo6, logo7, logo8, logo9, logo10,
@@ -159,7 +162,7 @@ export const PACKAGING_ASSETS = [
 ];
 
 export const STANDEE_ASSETS = [
-  standee1, standee2, standee3, standee4, standee5, standee6
+  standee1, standee2, standee3, standee4, standee5, standee6, standee7, standee8, standee9
 ];
 
 export const PORTFOLIO_CATEGORIES = [
@@ -167,8 +170,7 @@ export const PORTFOLIO_CATEGORIES = [
   { id: 'posters', title: 'Posters', count: 16, description: "Event & Promotional Art" },
   { id: 'banners', title: 'Banners', count: 12, description: "Large Format Display" },
   { id: 'menu-cards', title: 'Menu Cards', count: 16, description: "Restaurant & Cafe Design" },
-  { id: 'invitation-cards', title: 'Invitation Cards', count: 12, description: "Wedding & Event Suites" },
-  { id: 'standee', title: 'Standee Design', count: 6, description: "Exhibition Displays" },
+  { id: 'standee', title: 'Standee Design', count: 9, description: "Exhibition Displays" },
   { id: 'social-media', title: 'Social Media Posts', count: 21, description: "Digital Content Creation" },
   { id: 'brochures', title: 'Brochures', count: 7, description: "Corporate Literature" },
   { id: 'packaging', title: 'Product Packaging', count: 28, description: "Retail Design" },
@@ -177,5 +179,6 @@ export const PORTFOLIO_CATEGORIES = [
 export const CONTACT_INFO = {
   whatsapp: "+91 7415565203",
   email: "mustafamandwada@gmail.com",
-  instagram: "@Adbhutartz"
+  instagram: "@Adbhutartz",
+  linkedin: "http://www.linkedin.com/in/mustafa-mandwada-b086bb113"
 };
