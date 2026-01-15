@@ -80,6 +80,8 @@ export function GallerySection({ id, title, description, count, isAlternate = fa
           })}
         </div>
       </div>
+      {/* Section Divider */}
+      <div className="mt-20 mx-auto w-1/3 h-1 bg-primary/30 rounded-full" />
     </section>
   );
 }

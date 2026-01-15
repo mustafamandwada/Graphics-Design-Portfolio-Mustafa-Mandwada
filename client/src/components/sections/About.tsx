@@ -4,7 +4,7 @@ import profilePic from "@assets/Profile_pic_1768413423892.jpg";
 
 export function About() {
   return (
-    <section id="about" className="py-24 bg-secondary/30">
+    <section id="about" className="py-24 bg-secondary/30 relative">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           {/* Photo Holder */}
@@ -49,7 +49,7 @@ export function About() {
           >
             <span className="text-primary font-semibold tracking-wider uppercase text-sm mb-2 block">Who I Am</span>
             <h2 className="text-4xl md:text-5xl font-display font-bold mb-6 text-white">
-              I Transform Ideas into Visual Masterpieces
+              About Me
             </h2>
             <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
               I am a Creative Graphic Designer with over 11 years of experience in Logos, posters, banners, brochures, catalogues, and social media posts, focused on clean, modern & performance-driven design. Skilled in motion graphics, I have developed multiple explainer videos and motion graphs for different businesses. I have a strong visualization in creating ideas and creating visually compelling work that supports business growth.
@@ -65,11 +65,13 @@ export function About() {
             </div>
 
             <button onClick={() => document.getElementById('contact')?.scrollIntoView({behavior: 'smooth'})} className="text-primary font-semibold border-b-2 border-primary pb-1 hover:opacity-70 transition-opacity">
-              Get in Touch →
+              Hire Me →
             </button>
           </motion.div>
         </div>
       </div>
+      {/* Visual divider */}
+      <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-1/3 h-1 bg-primary/30 rounded-full" />
     </section>
   );
 }

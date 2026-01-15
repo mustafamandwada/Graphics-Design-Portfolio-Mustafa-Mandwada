@@ -47,7 +47,7 @@ export function Hero() {
               onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
               className="px-8 py-4 bg-secondary text-secondary-foreground border border-border rounded-full font-medium text-lg hover:bg-secondary/80 transition-colors min-w-[160px]"
             >
-              Contact Us
+              Hire Me
             </button>
           </div>
         </motion.div>
