@@ -90,6 +90,27 @@ import brochure5 from "@assets/11e73ff2-07a6-4dc8-9b63-af8b658a3c4d_176844028622
 import brochure6 from "@assets/09_1768440433023.jpg";
 import brochure7 from "@assets/PF8XX41_1768440447852.jpg";
 
+// Packaging Assets
+import pkg1 from "@assets/24_box_1768440534031.jpg";
+import pkg2 from "@assets/04_p_1768440540504.jpg";
+import pkg3 from "@assets/2ad4a5fe-0e82-4858-94fc-5a47ff8223dd_1768440568657.jpg";
+import pkg4 from "@assets/6d125ef4-b0c2-42fd-93a9-4ea89e3c479b_1768440568657.jpg";
+import pkg5 from "@assets/Sandwich_Bread_Packaging_Mockup_1768440574639.jpg";
+import pkg6 from "@assets/03ce29bf-d3d2-41b5-92b7-32597364a569_1768440588998.jpg";
+import pkg7 from "@assets/500ml_Mockup_combined_1768440846277.jpg";
+import pkg8 from "@assets/42dde470-e143-411c-b5f2-28cd1a349438_1768440911147.jpg";
+import pkg9 from "@assets/42dde470-e143-411c-b5f2-28cd1a349437_1768440911148.jpg";
+import pkg10 from "@assets/bagmockup1_1768440925785.jpg";
+import pkg11 from "@assets/bagmockup2_1768440925786.jpg";
+import pkg12 from "@assets/bagmockup3_1768440925786.jpg";
+import pkg13 from "@assets/d796b9f3-5040-4e75-b268-63b60c0576df32_1768441408786.jpg";
+import pkg14 from "@assets/10958195_1768441489596.jpg";
+import pkg15 from "@assets/7eaad5e5-05ca-4611-aa09-e1226da094ee6_1768441489597.jpg";
+import pkg16 from "@assets/7eaad5e5-05ca-4611-aa09-e1226da094ee8_1768441489597.jpg";
+import pkg17 from "@assets/5413844_1768441489597.jpg";
+import pkg18 from "@assets/5413845_1768441489597.jpg";
+import pkg19 from "@assets/10958193_1768441489598.jpg";
+
 export const LOGO_ASSETS = [
   logo1, logo2, logo3, logo4, logo5, logo6, logo7, logo8, logo9, logo10,
   logo11, logo12, logo13, logo14, logo15, logo16, logo17, logo18, logo19, logo20,
@@ -113,6 +134,10 @@ export const BROCHURE_ASSETS = [
   brochure1, brochure2, brochure3, brochure4, brochure5, brochure6, brochure7
 ];
 
+export const PACKAGING_ASSETS = [
+  pkg1, pkg2, pkg3, pkg4, pkg5, pkg6, pkg7, pkg8, pkg9, pkg10, pkg11, pkg12, pkg13, pkg14, pkg15, pkg16, pkg17, pkg18, pkg19
+];
+
 export const PORTFOLIO_CATEGORIES = [
   { id: 'logos', title: 'Logos', count: 25, description: "Brand Identity & Marks" },
   { id: 'posters', title: 'Posters', count: 16, description: "Event & Promotional Art" },
@@ -122,7 +147,7 @@ export const PORTFOLIO_CATEGORIES = [
   { id: 'standee', title: 'Standee Design', count: 12, description: "Exhibition Displays" },
   { id: 'social-media', title: 'Social Media Posts', count: 21, description: "Digital Content Creation" },
   { id: 'brochures', title: 'Brochures', count: 7, description: "Corporate Literature" },
-  { id: 'packaging', title: 'Product Packaging', count: 12, description: "Retail Design" },
+  { id: 'packaging', title: 'Product Packaging', count: 19, description: "Retail Design" },
 ];
 
 export const CONTACT_INFO = {
