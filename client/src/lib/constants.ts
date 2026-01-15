@@ -121,6 +121,14 @@ import pkg27 from "@assets/9272018_1768441814172.jpg";
 import pkg28 from "@assets/9272018F_1768441814172.jpg";
 import pkg29 from "@assets/8fb9b488-229e-45ad-ab2d-ab75c91f1f35_1768441897440.jpg";
 
+// Standee Assets
+import standee1 from "@assets/Standee_SM_post4-01_1768444448808.jpg";
+import standee2 from "@assets/Standee_2_mockup_1768444456221.jpg";
+import standee3 from "@assets/Standee_1_mockup_1768444456222.jpg";
+import standee4 from "@assets/71ad0e30-e3d2-4f3d-b2d1-5d9bf6e03179_1768444670509.jpg";
+import standee5 from "@assets/364_1768444670509.jpg";
+import standee6 from "@assets/Food-Menu-Tent-Card-Design-_Mockup_1768444670510.png";
+
 export const LOGO_ASSETS = [
   logo1, logo2, logo3, logo4, logo5, logo6, logo7, logo8, logo9, logo10,
   logo11, logo12, logo13, logo14, logo15, logo16, logo17, logo18, logo19, logo20,
@@ -148,13 +156,17 @@ export const PACKAGING_ASSETS = [
   pkg1, pkg2, pkg3, pkg4, pkg5, pkg6, pkg7, pkg8, pkg9, pkg10, pkg11, pkg12, pkg13, pkg14, pkg15, pkg16, pkg18, pkg19, pkg20, pkg21, pkg22, pkg23, pkg24, pkg25, pkg26, pkg27, pkg28, pkg29
 ];
 
+export const STANDEE_ASSETS = [
+  standee1, standee2, standee3, standee4, standee5, standee6
+];
+
 export const PORTFOLIO_CATEGORIES = [
   { id: 'logos', title: 'Logos', count: 25, description: "Brand Identity & Marks" },
   { id: 'posters', title: 'Posters', count: 16, description: "Event & Promotional Art" },
   { id: 'banners', title: 'Banners', count: 12, description: "Large Format Display" },
   { id: 'menu-cards', title: 'Menu Cards', count: 14, description: "Restaurant & Cafe Design" },
   { id: 'invitation-cards', title: 'Invitation Cards', count: 12, description: "Wedding & Event Suites" },
-  { id: 'standee', title: 'Standee Design', count: 12, description: "Exhibition Displays" },
+  { id: 'standee', title: 'Standee Design', count: 6, description: "Exhibition Displays" },
   { id: 'social-media', title: 'Social Media Posts', count: 21, description: "Digital Content Creation" },
   { id: 'brochures', title: 'Brochures', count: 7, description: "Corporate Literature" },
   { id: 'packaging', title: 'Product Packaging', count: 28, description: "Retail Design" },
