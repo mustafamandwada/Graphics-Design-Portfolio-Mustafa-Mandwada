@@ -137,6 +137,16 @@ import standee7 from "@assets/Standee_Final_2-01_1768444929654.jpg";
 import standee8 from "@assets/Standee-01_1768444929655.png";
 import standee9 from "@assets/Standee-01_(1)_1768444929656.png";
 
+// Banner Assets
+import banner1 from "@assets/Banner_3-01_1768541094086.jpg";
+import banner2 from "@assets/All_flavours_banner_3x2_Feet-01_1768541107630.jpg";
+import banner3 from "@assets/Daily_spice_banner_Final-01_1768541127222.jpg";
+import banner4 from "@assets/Banner-01_1768541134725.jpg";
+import banner5 from "@assets/Banner_3X2-01_1768541142515.jpg";
+import banner6 from "@assets/free_delivery1-01_1768541152883.png";
+import banner7 from "@assets/Banner_10x4-02_1768541188557.jpg";
+import banner8 from "@assets/KK_V1-01_1768541422739.png";
+
 export const LOGO_ASSETS = [
   logo1, logo2, logo3, logo4, logo5, logo6, logo7, logo8, logo9, logo10,
   logo11, logo12, logo13, logo14, logo15, logo16, logo17, logo18, logo19, logo20,
@@ -150,6 +160,10 @@ export const POSTER_ASSETS = [
 
 export const SOCIAL_ASSETS = [
   sm1, sm2, sm3, sm4, sm5, sm6, sm7, sm8, sm9, sm10, sm11, sm12, sm13, sm14, sm15, sm16, sm17, sm18, sm19, sm20, sm21
+];
+
+export const BANNER_ASSETS = [
+  banner1, banner2, banner3, banner4, banner5, banner6, banner7, banner8
 ];
 
 export const MENU_ASSETS = [
@@ -170,8 +184,8 @@ export const STANDEE_ASSETS = [
 
 export const PORTFOLIO_CATEGORIES = [
   { id: 'logos', title: 'Logos', count: 25, description: "Brand Identity & Marks" },
-  { id: 'posters', title: 'Posters', count: 19, description: "Event & Promotional Art" },
-  { id: 'banners', title: 'Banners', count: 12, description: "Large Format Display" },
+  { id: 'posters', title: 'Posters', count: 21, description: "Event & Promotional Art" },
+  { id: 'banners', title: 'Banners', count: 8, description: "Large Format Display" },
   { id: 'menu-cards', title: 'Menu Cards', count: 16, description: "Restaurant & Cafe Design" },
   { id: 'standee', title: 'Standee Design', count: 9, description: "Exhibition Displays" },
   { id: 'social-media', title: 'Social Media Posts', count: 21, description: "Digital Content Creation" },
